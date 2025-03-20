@@ -60,3 +60,54 @@ html, body{height: 100%; width: 100%;}
 
 .page1 .inner-content h1{text-align: center; letter-spacing: -1.5vw; font-size: 22vw; font-family: rejo;}
 .page1 .inner-content h1 span{display: inline-block;}
+
+
+/*page 2*/
+.page2{height: 100vh; width: 100%; background: #fff;}
+.page2 .page2-top{height: 100px; width: 100vw; padding: .6vw 3vw; margin-top: 30px; display: flex; justify-content: space-between; align-items: end;}
+.page2 .page2-top h3{font-size: 1.7vw; font-weight: lighter; letter-spacing: -0.5px; color: #141414;}
+.page2 .page2-top .first-text{overflow: hidden;}
+.page2 .page2-top-border{height: 1px; width: 0vw; margin: .6vw 3vw; background-color: rgb(71,71,71);}
+
+.page2 .page2-bottom{height: 415px; width: 100vw; overflow: hidden;}
+.page2 .page2-bottom .btm-text{padding: 2vw 3vw; overflow: hidden;}
+.page2 .page2-bottom .btm-text h2 .up{overflow: hidden;}
+.page2 .page2-bottom .btm-text h2 span{font-size: 4.45vw; font-weight: lighter;line-height: 1; letter-spacing: -1px; display: inline-block; overflow: hidden;}
+
+/*page 3*/
+.page3{height: 70vh; width: 100vw; background-color: #fff; display: flex; align-items: center; text-align: center; justify-content: center;}
+.page3 .page3-text{overflow: hidden; height: 155px;}
+.page3 .page3-text h4{color: #161616; font-weight: lighter; display: flex; align-items: self-start; justify-content: center; gap: 5px; margin-bottom: 15px;}
+.page3 .page3-text h4 span{font-size: 0.7vw; background-color: #000; color: #fff; border-radius: 100px; padding: 4px 6px; text-align: center;}
+.page3 .page3-text h4 i{color: #161616; margin-top: 2px;}
+.page3 .page3-text h1{cursor: pointer; font-size: 4vw; font-weight: lighter; line-height: 1; position: relative;}
+.page3 .page3-text h1::after{content: ''; position: absolute; width: 100%; height: 2px; left: 0; bottom: 0; transform: scaleX(0); transform-origin: bottom right; background-color: #000; transition: transform 0.4s ease-out;}
+.page3 .page3-text h1:hover::after{transform: scaleX(1); transform-origin: bottom left;}
+
+
+/*page 4*/
+
+/*page 5*/
+.page5{ width: 100vw; height: 100vh; background-color: #fff;}
+.page5 .page5-top{height: 100px; width: 100vw; padding: 0.6vw 3vw; margin-top: 30px; display: flex; align-items: end; justify-content: space-between;}
+.page5 .page5-top h3{font-size: 1.7vw; font-weight: lighter; letter-spacing: -0.5px; color: #141414;}
+.page5 .page5-top .top-text{overflow: hidden;}
+.page5 .page5-top-border{height: 1px; width: 0vw; margin: 0.6vw 3vw; background-color: rgb(71,71,71);}
+.page5 .page5-bottom{height: 415px; width: 100vw; overflow: hidden;}
+.page5 .page5-bottom .btm-text{padding: 2vw 3vw; overflow: hidden;}
+.page5 .page5-bottom .btm-text h2 .up{overflow: hidden;}
+.page5 .page5-bottom .btm-text h2 span{font-size: 4.45vw; font-weight: lighter; line-height: 1; letter-spacing: -1px; display: inline-block; overflow: hidden;}
+
+
+.page6{ width: 100vw; height: 90vh;background-color: #fff; position: relative;}
+.page6 video{position: absolute; height: 150%;width: 100%; top: 50%; left: 50%;transform: translate(-50%,-50%);}
+.page6 svg{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);height: 90%;}
+.page6 .crsr{height: 7vw;width: 7vw;  background: #000; position: fixed; border-radius: 50%; display: flex;align-items: center; justify-content: center;}
+.page6 .crsr h2{color: #fff ;font-weight: lighter; font-size: 1.3vw;}
+
+.page6 .page6-text{position: absolute;top: 50%; left: 50%; transform: translate(-50%,-50%);display: flex;align-items: center; flex-direction: column; color: #fff;}
+.page6 .page6-text .seat{display: flex; align-items: center; justify-content: center; gap: 10px;}
+.page6 .page6-text .seat span{font-size: 5vw;}
+.page6 .page6-text .seat h2{font-size: 5vw; font-weight: lighter; letter-spacing: -1.5px;}
+.page6 .page6-text .seat .seat-span{display: flex;align-items: center; flex-direction: column; height: 70px; overflow: hidden;}
+.page6 .page6-text .seat .seat-span:hover h2{transform: translateY(-400%); transition: transform 1s ease-in-out;}
